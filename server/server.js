@@ -4,6 +4,7 @@ const cors = require("cors");
 const { errorHandler } = require("./middleware/errorMiddleware");
 const connectDB = require("./config/db");
 const port = process.env.PORT || 5000;
+const host = '0.0.0.0';
 const path = require("path");
 const res = require("express/lib/response");
 
@@ -33,7 +34,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.listen(port, () => {
+app.listen(port, host, () => {
   // starts the server and listens on the port
   connectDB();
   console.log(`Server started on port ${port}`);
