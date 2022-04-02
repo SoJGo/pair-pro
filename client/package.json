@@ -33,8 +33,7 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest" 
-     
+      "react-app/jest"
     ]
   },
   "browserslist": {
@@ -50,7 +49,7 @@
     ]
   },
   "engines": {
-    "node": ">=15.0.0 <=17.6.0"
+    "node": "17.x"
   },
   "devDependencies": {
     "@testing-library/cypress": "^8.0.2",
