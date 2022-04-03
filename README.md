@@ -1,5 +1,58 @@
 # PairPro
+---
 
+### A place for coding enthusiasts to chat with like-minded people and find a partner for a session of pair programming!
+---
+
+![home page](/screenshots/home.png)
+
+
+<details>
+  <summary>Click for more screenshots</summary>
+
+  ![register page](/screenshots/register.png)
+</details>
+</br>
+
+
+## Usage
+---
+### Visit
+---
+### PairPro is deployed on Heroku and can be visited [here](https://be-a-pair-pro.herokuapp.com/).
+  You can sign up yourself, or you can be Bob for the day:
+
+  |email | password |
+  |---|---|
+  |bob@example.com | PairProForLife | 
+
+### Run Locally
+---
+You will need your own [MongoDB connection string](https://www.mongodb.com/docs/guides/cloud/connectionstring/).
+Clone this directory, then in the root folder:
+```
+$ cp env.example .env
+```
+Update .env with your details.
+```
+$ yarn
+$ cd client
+$ yarn
+$ cd ..
+$ yarn dev
+```
+### Run Tests
+---
+```
+$ cd client
+$ yarn test
+```
+
+<br>
+
+## Development
+---
+This was created as a group project at the end of our [Makers](http://makers.tech/) Bootcamp journey.
 
 
 <details>
