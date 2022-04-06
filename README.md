@@ -12,8 +12,6 @@
 
   ![register page](/screenshots/register.png)
 </details>
-</br>
-
 
 ## Usage
 ---
@@ -24,7 +22,7 @@
 
   |email | password |
   |---|---|
-  |bob@example.com | PairProForLife | 
+  |bob@example.com | PairPro4Life | 
 
 ### Run Locally
 ---
@@ -46,9 +44,8 @@ $ yarn dev
 ```
 $ cd client
 $ yarn test
+$ yarn cypress run
 ```
-
-<br>
 
 ## Development
 ---
@@ -67,7 +64,7 @@ This was created as a group project at the end of our [Makers](http://makers.tec
   I would like to sign up.
   ```
   ```
-  As a user, 
+  As a user,
   So my profile can be remembered,
   I would like to sign in.
   ```
